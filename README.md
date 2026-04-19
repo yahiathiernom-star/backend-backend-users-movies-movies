@@ -4,6 +4,37 @@ API REST développée avec **Node.js, Express et Prisma** permettant de gérer d
 
 ---
 
+## 📸 Aperçu des tests API
+
+### 🔐 Register
+<img src="zscreens/register.png" width="800"/>
+
+### 🔑 Login
+<img src="zscreens/login.png" width="800"/>
+
+### 👤 Get Me
+<img src="zscreens/me.png" width="800"/>
+
+### 🎬 Create Movie
+<img src="zscreens/create-movie.png" width="800"/>
+
+### 📄 Get Movies
+<img src="zscreens/get-movies.png" width="800"/>
+
+### 🔍 Search Movie
+<img src="zscreens/search-movie.png" width="800"/>
+
+### 🔁 Update Movie
+<img src="zscreens/update-movie.png" width="800"/>
+
+### 🗑️ Delete Movie
+<img src="zscreens/delete-movie.png" width="800"/>
+
+### 📊 Users Pagination
+<img src="zscreens/users-pagination.png" width="800"/>
+
+---
+
 ## 🚀 Fonctionnalités
 
 ### 🔐 Authentification
@@ -22,27 +53,10 @@ API REST développée avec **Node.js, Express et Prisma** permettant de gérer d
 - Recherche (`/api/movies/search`)
 - Routes protégées
 
-### ⚙️ Sécurité & Qualité
-- Middleware `authenticate`
-- Gestion des erreurs (Prisma + custom)
-- Architecture en couches (Routes → Controllers → Services)
-
 ---
 
-## 🛠️ Technologies utilisées
-
-- Node.js
-- Express
-- Prisma
-- PostgreSQL
-- JWT (jsonwebtoken)
-- bcrypt
-
----
-
-## 📦 Installation
+## ▶️ Lancer le projet
 
 ```bash
-git clone https://github.com/yahiathiernom-star/backend-backend-users-movies-movies.git
-cd backend-backend-users-movies-movies
 npm install
+npm run dev
