@@ -5,6 +5,7 @@ export const hashPassword = async (password) =>{
 
     return hashPassword;
 };
+dninineinienddenddiend
 
 export const comparePasswords = async (password, passwordHash) =>{
     const isPasswordValid = await bcrypt.compare(password, passwordHash);
